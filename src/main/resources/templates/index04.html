@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>index04</title>
+</head>
+<body>
+<span th:text="${username}"></span>
+<br>
+<input type="text" th:value="${username}">
+<br>
+<!--拼接字符串-->
+<span th:text="${username}+','+'包你就业百分百'"></span>
+<br>
+<span th:text="|${username},包你就业百分百|"></span>
+</body>
+</html>
