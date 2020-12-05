@@ -15,6 +15,7 @@ import java.util.*;
 @Controller  //如果使用thymeleaf模板引擎，则一定要用@Controller
 public class IndexController {
 
+    //测试
     @RequestMapping("/index")
     public String index(Model model){
         model.addAttribute("message","欢迎您");
